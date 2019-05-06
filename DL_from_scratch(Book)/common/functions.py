@@ -13,4 +13,4 @@ def softmax(x):
     return exp_x / sum_exp_x
 
 def relu(x):
-    return np.maximun(0,x)
+    return np.maximum(0, x)
