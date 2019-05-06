@@ -11,3 +11,6 @@ def softmax(x):
     exp_x = np.exp(x - c) # overflow prevention
     sum_exp_x = np.sum(exp_x)
     return exp_x / sum_exp_x
+
+def relu(x):
+    return np.maximun(0,x)
